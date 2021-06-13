@@ -1,0 +1,306 @@
+main {
+    margin-top: 10px;
+}
+
+nav#mainNav {
+    padding: 35px 50px;
+    background-color: white;
+}
+
+span#concluido-text {
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+/* parte do lado direito após nav */
+article#ciaIdea {
+    padding-top: 1rem;
+}
+
+#ciaIdea>p {
+    text-align: justify;
+}
+
+#ciaIdea-strong-description {
+    font-weight: bold;
+    font-size: 39.344px;
+    line-height: 44px;
+    text-align: center;
+    text-indent: 5.24587px;
+}
+
+
+.ciaIdea-form {
+    padding: 2.5rem 0;
+}
+
+.ciaIdea-form>input {
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: .5ch;
+    height: 2.5rem;
+}
+
+.btnSearch {
+    position: absolute;
+    border: none;
+    margin-top: -0px;
+}
+
+.container-acess {
+    color: white;
+    text-align: center;
+    top: 800px;
+    background: #2E2E32;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 5rem;
+}
+.container-logistaCliente {
+    margin: 5rem 0;
+    font-size: xx-large;
+}
+
+/*SPECIFICS*/
+.findForBuy-text {
+    color:  rgb(186, 48, 48);
+    align-items: center;
+}
+
+#findForBuy-icon {
+    text-align: center;
+    align-self: center;
+    height: 50%;
+    width: 75%;
+
+
+}
+
+.accessOptions {
+    padding-top: 50px;
+}
+
+
+.accessParagraph {
+    /* Acesse como: */
+    height: 50%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 72px; */
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.produtoParagraph {
+    font-weight: bold;
+    font-size: 104.625px;
+    line-height: 118px;
+    text-align: center;
+
+    color: #2F6F50;
+
+}
+
+.loginTitle {
+    font-weight: bold;
+
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 171.429px;
+
+    text-align: center;
+}
+
+
+div.searchParagraph {
+    align-items: center;
+    align-self: center;
+}
+
+.mainLoginCliente {
+    background: #E8E8E8;
+    /* background: gray; */
+}
+
+
+article#productsImg {
+    padding: 50px 0;
+
+}
+
+
+/* cliente-cadastro.html */
+
+article#loginForm input {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    border: 5px #2E2E32 solid;
+
+}
+
+article#loginForm label {
+    font-size: 25px;
+}
+
+article#loginForm a {
+    font-size: 18px;
+}
+
+.loginForm-clientType-span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 171.429px;
+    line-height: 193px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#login-img {
+    /* background-image: none; */
+    width: 100%;
+}
+
+#containerPart2 {
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    font-size: 40px;
+    background-size: cover;
+    padding-bottom: 100px;
+    background-image: url('abtract.jpg');
+    max-width: 100%;
+}
+
+
+.img-fluid-home {
+    border-radius: 0px 174.404px;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+}
+
+.img-fluid-search {
+    border-radius: 125.733px;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+}
+
+img {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    
+}
+
+.vertical-line {
+    border-left: 1px solid rgba(96, 96, 96, 0.5);
+    height: 40px;
+    padding: 3%;
+  
+  } 
+  
+.image {
+  background-color: rgb(244, 244, 244); /* cor do container */
+  border: 8px solid #807f7f; /* borda */
+  padding: 2%; /* distancia do conteudo para os componenentes */
+  margin: 5% 34% 1% 34%; /* margin */ 
+  border-radius: 5px;
+  max-width: 100%;
+  
+}
+
+.image-bloco {
+    
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    max-width: 100%;
+
+}
+.blocos {
+    padding: 0% 0% 0%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    max-width: 100%;
+}
+  
+  
+.button-return {
+  background-color: red;
+  border: 0px none;
+  padding: 33% 0% 5px;
+  border-radius: 5px;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+}
+  
+#return {
+  background-color: #2F6F50;
+  align-items: center;
+  padding: 1% 0px 0px;
+  max-width: 100%;
+  
+}
+  
+.button-return {
+    max-width: 100%;
+}
+
+.attention {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+}
+
+.att-text {
+    text-align: center;
+    padding: 5%;
+    color: #2E2E32 solid;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.att-text2 {
+
+    text-align: center;
+    font: Share;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.information-text {
+    color: #2E2E32 solid;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font: Share;
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.text-center{
+    margin-top: 50px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#add-pro {
+    background-color: #B52727;
+    align-items: center;
+    padding: 5px 28px;
+}
