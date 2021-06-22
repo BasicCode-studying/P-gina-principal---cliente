@@ -174,7 +174,6 @@ article#loginForm a {
     font-size: 40px;
     background-size: cover;
     padding-bottom: 100px;
-    background-image: url('abtract.jpg');
     max-width: 100%;
 }
 
@@ -194,10 +193,7 @@ article#loginForm a {
 }
 
 img {
-    display: flex;
-    justify-content: space-between;
-    max-width: 100%;
-    
+    max-width: 100%;  
 }
 
 .vertical-line {
@@ -206,34 +202,49 @@ img {
     padding: 3%;
   
   } 
-  
-.image {
-  background-color: rgb(244, 244, 244); /* cor do container */
-  border: 8px solid #807f7f; /* borda */
-  padding: 2%; /* distancia do conteudo para os componenentes */
-  margin: 5% 34% 1% 34%; /* margin */ 
-  border-radius: 5px;
-  max-width: 100%;
-  
-}
 
-.image-bloco {
-    
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    max-width: 100%;
-
-}
-.blocos {
-    padding: 0% 0% 0%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f9f9f9;
+.packs {
+    background-image: url('fundo_selling.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
     border-top: 1px solid #ddd;
+}
+
+.pack_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.pack {
+    justify-content: center;
+    flex: 10%;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.pack_thumbnail {
+    width: 100%;
+    height: 100%;
     max-width: 100%;
 }
-  
+
+.pack_thumbnail img {
+    border-radius: 20px;
+    max-height: auto;
+    max-width: auto;
+    width: 317px;
+    height: 550px;
+    max-width: 100%;
+}
   
 .button-return {
   background-color: red;
@@ -285,7 +296,7 @@ img {
 .information-text {
     color: #2E2E32 solid;
     margin-top: 20px;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     font: Share;
     padding: 20px;
@@ -304,3 +315,20 @@ img {
     align-items: center;
     padding: 5px 28px;
 }
+
+.container-footer{
+    background-image: url('fundo_selling.jpg');
+    background-size: cover;
+    margin-top: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left ;
+    height: 100%;
+}
+.contato {
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+}
+
